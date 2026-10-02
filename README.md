@@ -7,7 +7,7 @@ weather for Ruse, one pair per connected monitor.
 conky/      system.lua, weather.lua (one config each; monitor from CONKY_HEAD), theme.lua
 bin/        scripts symlinked into ~/.local/bin
 systemd/    gmail-fetch.timer + .service (user units)
-autostart/  conky-widget.desktop (starts conky-watch.sh at login)
+autostart/  conky-widget.desktop.in (template; install.sh fills in $HOME)
 legacy/     the setup this replaced (October 2026), kept for reference
 REVIEW.md   the review that led to this layout
 ```
