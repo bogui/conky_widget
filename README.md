@@ -4,6 +4,8 @@ Desktop widgets for GNOME on Wayland (conky runs through Xwayland): a system mon
 Bulgarian calendar + weather panel for Ruse, one pair per connected monitor, with Gmail unread
 mail and desktop notifications.
 
+![conky widget on GNOME](docs/screenshot.png)
+
 ```
 conky/      system.lua, weather.lua (one config each; monitor from CONKY_HEAD), theme.lua
 bin/        scripts, symlinked into ~/.local/bin by install.sh
