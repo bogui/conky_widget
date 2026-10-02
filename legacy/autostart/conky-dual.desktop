@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Conky Dual Monitor
+Comment=Start Conky on both monitors
+Exec=/home/bogui/.local/bin/start-conky-dual.sh
+Icon=conky
+Terminal=false
+Categories=System;Monitor;
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+NoDisplay=false

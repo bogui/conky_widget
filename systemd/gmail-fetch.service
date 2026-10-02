@@ -1,0 +1,8 @@
+[Unit]
+Description=Fetch Gmail unread state for the conky widget and notify on new mail
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/gmail_fetch.py
+TimeoutStartSec=60

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Conky Widget
+Comment=Start conky on every monitor and restart it when monitors change
+Exec=@HOME@/.local/bin/conky-watch.sh
+Icon=conky
+Terminal=false
+Categories=System;Monitor;
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+NoDisplay=false

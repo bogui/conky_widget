@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Gmail Notification Daemon
+Comment=Monitor Gmail for new emails and send notifications
+Exec=/home/bogui/.local/bin/gmail_notify_daemon.sh
+Icon=mail-unread
+Terminal=false
+Categories=Network;Email;
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+NoDisplay=false
